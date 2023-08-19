@@ -925,7 +925,7 @@ class RenderParagraph extends RenderBox with ContainerRenderObjectMixin<RenderBo
   ///    the equivalent boxes.
   List<ui.TextBox> getBoxesForSelection(
     TextSelection selection, {
-    ui.BoxHeightStyle boxHeightStyle = ui.BoxHeightStyle.tight,
+    ui.BoxHeightStyle boxHeightStyle = ui.BoxHeightStyle.strut,
     ui.BoxWidthStyle boxWidthStyle = ui.BoxWidthStyle.tight,
   }) {
     assert(!debugNeedsLayout);
